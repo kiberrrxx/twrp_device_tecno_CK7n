@@ -58,8 +58,8 @@ cmdq-platform-mt6789.ko
 cmdq_helper_inf.ko
 mtk-mml.ko
 mtk_panel_ext.ko
-mediatek-drm-gateic.ko
-nt37703_fhdp_dsi_vdo_tm_panda_120hz_x678b.ko
+nt37703_fhdp_dsi_vdo_tm_panda_120hz_ck7n.ko
+vtdr6115_fhdp_dsi_vdo_csot_sg_120hz_ck7n.ko
 mediatek-drm.ko
 aee_rs.ko
 mmprofile.ko
@@ -92,6 +92,7 @@ blocktag.ko
 pidmap.ko
 mtk-pmic-keys.ko
 mtk-kpd.ko
+regulator-vibrator.ko
 i2c-mt65xx.ko
 rtc-mt6397.ko
 mt6789_dcm.ko
@@ -107,7 +108,6 @@ mcDrvModule.ko
 isee.ko
 industrialio-triggered-buffer.ko
 kfifo_buf.ko
-mt6577_auxadc.ko
 adapter_class.ko
 charger_class.ko
 mtk_charger_algorithm_class.ko
@@ -117,10 +117,6 @@ tcpc_rt1711h.ko
 mtk_chg_type_det.ko
 mtk_pd_adapter.ko
 mtk_pep40.ko
-wireless_ta.ko
-mtk_pep20.ko
-mtk_pep.ko
-mtk_pd_charging.ko
 rfc_ta.ko
 prop_ta_class.ko
 pca_rfc_ta.ko
@@ -131,10 +127,13 @@ mtk_tran_hvdcp20.ko
 mtk_pep50.ko
 tran_chg.ko
 tran_battery_aging.ko
+mtk_pd_charging.ko
+mtk_pep20.ko
+mtk_pep.ko
+mt6577_auxadc.ko
 mtk_charger_framework.ko
 rt_pd_manager.ko
 mt6358_battery.ko
-wireless_mt5728.ko
 pwm-mtk-disp.ko
 leds-mtk.ko
 leds-mtk-disp.ko

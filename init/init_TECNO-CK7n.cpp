@@ -24,12 +24,12 @@ void vendor_load_properties()
     string prop_partitions[] = {"", "vendor.", "odm."};
     for (const string &prop : prop_partitions)
     {
-        property_override(string("ro.product.") + prop + string("brand"), "infinix");
-        property_override(string("ro.product.") + prop + string("name"), "X678B");
-        property_override(string("ro.product.") + prop + string("device"), "X678B");
-        property_override(string("ro.product.") + prop + string("model"), "X678B");
-        property_override(string("ro.product.") + prop + string("marketname"), "Infinix Note 30 Pro");
-        property_override(string("ro.product.system.") + prop + string("device"), "Infinix Note 30 Pro");
+        property_override(string("ro.product.") + prop + string("brand"), "TECNO");
+        property_override(string("ro.product.") + prop + string("name"), "CK7n-GL");
+        property_override(string("ro.product.") + prop + string("device"), "TECNO-CK7n");
+        property_override(string("ro.product.") + prop + string("model"), "TECNO CK7n");
+        property_override(string("ro.product.") + prop + string("marketname"), "TECNO CAMON 20 Pro");
+        property_override(string("ro.product.system.") + prop + string("device"), "TECNO CAMON 20 Pro");
     }
     property_override("ro.bootimage.build.date.utc", "1609430400");
     property_override("ro.build.date.utc", "1609430400");
