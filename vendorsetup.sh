@@ -6,7 +6,7 @@ export FOX_VIRTUAL_AB_DEVICE=1
 export OF_DEFAULT_KEYMASTER_VERSION=4.1
 export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
 export OF_MAINTAINER="kiberrrxx"
-export OF_MAINTAINER_AVATAR="device/tecno/TECNO-CK7n/photos/ava.PNG"
+export OF_MAINTAINER_AVATAR="device/tecno/TECNO-CK7n/photos/ava.png"
 export FOX_VARIANT="A13+"
 export OF_FLASHLIGHT_ENABLE=0
 
