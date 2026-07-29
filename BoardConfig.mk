@@ -1,4 +1,4 @@
-#
+9#
 # Copyright (C) 2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -170,7 +170,7 @@ TARGET_USES_MKE2FS := true
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1024
 
-TW_DEVICE_VERSION := CK7n_by_rama982
+TW_DEVICE_VERSION := CK7n_by_kiberrrxx
 
 # StatusBar
 TW_STATUS_ICONS_ALIGN := center
